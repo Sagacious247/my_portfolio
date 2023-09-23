@@ -8,10 +8,9 @@ import Navbar from './components/navbar/Navbar';
 import Skills from './components/skills/Skills';
 import Work from './components/work/Work';
 
-
 function App() {
   return (
-    <div>
+    <>
      <Navbar/>
      <Hero/>
      <div style={{backgroundColor: '#000'}}>
@@ -21,7 +20,7 @@ function App() {
      <Footer/>
      </div>
      <ToastContainer/>
-     </div>
+    </>
   );
 }
 
